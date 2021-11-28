@@ -1,0 +1,32 @@
+с  телемарафона . синхронизировать  импорт  TelegramClient , события
+
+# из pyotp import TOTP
+
+#if input ("Введи код из статьи:")! = TOTP ("UC2UQZPN32334CZK"). now ():
+# выход (1)
+#еще:
+# print («Код правильный»)
+
+#SERGOPROXY TG: @ sergey0804, darksploit: SergoProxy
+print ( "'TG - spam' - скрипт написан SergoProxy, для спама в личных сообщениях телеграм. \ n Все вопросы и идеи в TG: @ sergey0804" )
+печать ()
+hashtg  =  input ( "Введите хэш аккаунта:" )
+iptg  =  int ( input ( "Введите ip приложения:" ))
+px  =  int ( input ( "Набрать количество сообщений:" ))
+idp  =  input ( "Введите идентификатор пользователя:" )
+mes  =  input ( "Текст сообщения:" )
+
+api_id  =  iptg
+api_hash  =  hashtg
+
+с  TelegramClient ( 'proxy' , api_id , api_hash ) в качестве  клиента :
+	для  i  в  диапазоне ( px ):
+		клиент . send_message ( idp , mes )
+		клиент . send_message ( idp , mes )
+		клиент . send_message ( idp , mes )
+		клиент . send_message ( idp , mes )
+		клиент . send_message ( idp , mes )
+		клиент . send_message ( idp , mes )
+		клиент . send_message ( idp , mes )
+		
+#SERGOPROXY TG: @ sergey0804, darksploit: SergoProxy
